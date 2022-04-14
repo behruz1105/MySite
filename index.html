@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="shortcut icon" href="images/b.png" type="image/x-icon">  
+    <link rel="stylesheet" href="style/main.css" type="text/css">
+    <title>Behruz</title>
+</head>
+<body>
+  <div class="page">
+  <div class="dropdown">
+    <button class="dropbtn">☰</button>
+    <div class="dropdown-content">
+      <a href="#" id="home">Главная</a>
+      <a href="python.html" id="home">Курсы по Python</a>
+      <a href="java.html" id="home">Курсы по Java</a>
+      <a href="javascript.html" id="home">Курсы по JavaScript</a>
+      <a href="flutter.html" id="home">Курсы по Flutter</a>
+      <a id="about">О нас</a>
+      <a id="contacts">Контакты</a>
+    </div>
+  </div>
+  <form id="content">
+    <input type="text" name="input" class="input" id="search-input" onkeypress="clickPress(event)">
+    <button type="reset" class="search" id="search-btn"></button>
+  </form>
+<header class="header">
+   
+    <a href='#' class="home" id="home">Главная</a>
+    <a class="about" id="about1">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      О нас</a> 
+    <a class="contacts"  id="contacts1">
+      <span></span>
+     <span></span>
+     <span></span>
+     <span></span>
+      Контакты</a>
+      
+    <p id="user_name">username</p>
+    <img src="images/user_img.png" alt="" class="user_image" onclick="nm()">
+    <div class="user_options">
+      <a>изменить</a>
+      <a>выйти</a>
+  </div>
+   <div class="login">Войти</div> 
+
+</header>
+<div class="okno">
+  <img src="images/fon1.png" class="background_img" alt="">
+  <p class="text">Первый курс по Flutter</p>
+  <div class="box_1">
+    <p class="day"></p>
+    <p class="day1">дней</p>
+  </div>
+  <div class="box_2">
+    <p class="hour"></p>
+    <p class="hour1">часов</p>
+  </div>
+  <div class="box_3">
+    <p class="minutes"></p>
+    <p class="minutes1">минут</p>
+  </div>
+  <div class="box_4">
+    <p class="seconds"></p>
+    <p class="seconds1">секунд</p>
+  </div>
+<div class="slider">
+  <div class="slides">
+    <input type="radio" name="radio-btn" id="radio1">
+    <input type="radio" name="radio-btn" id="radio2">
+    <input type="radio" name="radio-btn" id="radio3">
+    <input type="radio" name="radio-btn" id="radio4">
+    
+    <div class="slide first">
+      <picture>
+        <a href="python.html"><button class="btn1"></button></a>
+        <img src="images/Python.jpeg" alt=""> 
+      </picture>
+      
+    </div>
+    <div class="slide">
+      <picture>
+        <a href="java.html"><button class="btn2"></button></a>
+        <img src="images/Java.jpg" alt=""> 
+      </picture>
+    </div>
+    <div class="slide">
+      <picture>
+        <a href="javascript.html"><button class="btn3"></button></a>
+        <img src="images/JavaScript.jpg" alt=""> 
+      </picture>
+    </div>
+    <div class="slide">
+      <picture>
+        <a href="flutter.html"><button class="btn4"></button></a>
+        <img src="images/Flutterjpg.jpg" alt=""> 
+      </picture>
+    </div>
+
+    <div class="navigation-auto">
+      <div class="auto-btn1"></div>
+      <div class="auto-btn2"></div>
+      <div class="auto-btn3"></div>
+      <div class="auto-btn4"></div>
+    </div>
+
+
+  </div>
+  <div class="navigation-manual">
+    <label for="radio1" class="manual-btn"></label>
+    <label for="radio2" class="manual-btn"></label>
+    <label for="radio3" class="manual-btn"></label>
+    <label for="radio4" class="manual-btn"></label>
+  </div>
+</div>
+
+<p class="about_us">О нас</p>
+
+<div class="box2">
+  <p class="about_company">О компании</p>
+  <p class="about_text"><span>OBI company</span>-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur veritatis numquam dolorum dicta, animi expedita accusantium ab quaerat adipisci aut ipsa porro quod excepturi maxime maiores eaque possimus iste suscipit enim harum officia at. Dolore vel minima atque nesciunt est quaerat possimus harum autem exercitationem illo assumenda esse voluptatibus odit excepturi distinctio animi magnam unde quae itaque cupiditate, laudantium inventore error consequatur. Praesentium possimus necessitatibus ab doloribus voluptatum optio exercitationem!</p>
+  <img class="img1" src="images/obi.JPG">
+  <img class="img2" src="images/obi1.jpg">
+</div>
+<div class="teachers">
+  <img src="images/logo1.png" class="logo1">
+  <p class="teacher_txt">Ваши преподаватели</p>
+  <div class="teacher1">
+    <img class="teacher_photo" src="images/teacher1.jpg">
+    <p class="teacher_name">Jasur Rahmatov</p>
+    <p class="profession">(Python developer)</p>
+    <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, saepe. Debitis sunt perferendis et est.</p>
+  </div>
+  <div class="teacher2">
+    <img class="teacher_photo" src="images/teacher2.png">
+    <p class="teacher_name">Jasur Rahmatov</p>
+    <p class="profession">(Java developer)</p>
+    <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt quaerat nisi esse. Expedita, similique.</p>
+  </div>
+  <div class="teacher3">
+    <img class="teacher_photo" src="images/teacher3.jpg">
+    <p class="teacher_name">Jasur Rahmatov</p>
+    <p class="profession">(Javascript developer)</p>
+    <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptates maxime excepturi saepe pariatur quod!</p>
+  </div>
+  <div class="teacher4">
+    <img class="teacher_photo" src="images/teacher4.jpg">
+    <p class="teacher_name">Jasura Rahmatova</p>
+    <p class="profession">(Flutter developer)</p>
+    <p class="bio">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni at quis consequatur, facilis placeat expedita.</p>
+  </div>
+</div>
+<div class="scroll">jkh</div>
+<div class="contacts_div">
+  <div class="contacts_div1">
+  <p class="contacts_text">Наши контакты</p>
+  <p class="contacts_text1">Вам нужна дополнительная информация?<br>
+    Посмотрите, что другие люди говорят о нас. <br>
+    Они очень довольны своей покупкой.</p>
+    <img src="images/location.png" class="location_icon">
+    <p class="location_text1">Найдите нас в офисе</p>
+    <p class="location_text2">Buyuk ipak yo'li 36,<br> Karaulbazar district,<br> Bukhara, Uzbekistan</p>
+    <img src="images/phone.png" class="phone_icon">
+    <p class="phone_text1">Звоните нам</p>
+    <p class="phone_text2">Behruz Obidov<br>+998 (91) 447-40-18<br>Пн-Сб, 8:00-22:00</p>
+</div>
+ <div class="contact_message">
+<p class="contact_us">Пишите нам</p>
+<input type="text" class="input_name" placeholder="Имя">
+<input type="text" class="input_surname" placeholder="Фамилия">
+<input type="email" placeholder="Email адрес" class="input_email">
+<textarea class="input_message" placeholder="Введите сообщение"></textarea>
+<div class="send_message">Отправить</div>
+</div>
+</div>
+</div>
+
+<footer class="footer">
+  <img src="images/obi.png" class="obi" title="OBI => (Obidov | Behruz | Ixtiyor o'g'li)">
+  <p class="company"> company</p>
+  <p class="foot_text1">Все права защищены! ™️</p>
+  <p class="foot_text2">Created by OBI ©️ 2021</p>
+
+</footer>
+</div>
+ <script type="text/javascript">
+  var counter = 1;
+  setInterval(function(){
+    document.getElementById('radio'+ counter).checked =true;
+    counter++;
+    if(counter>4){
+      counter=1;
+    }
+  },6000);
+  
+  function scrollTo(element){
+    window.scroll({
+        left: 0,
+        top: element.offsetTop,
+        behavior: "smooth"        
+    })
+}
+var about = document.querySelector('.about_us');
+var about_button1 = document.querySelector('#about1');
+about_button1.addEventListener('click',()=>{scrollTo(about) } )
+var about_button2 = document.querySelector('#about');
+about_button2.addEventListener('click',()=>{scrollTo(about) } )
+
+contacts = document.querySelector('.scroll');
+contacts_button1 = document.querySelector('#contacts1');
+contacts_button1.addEventListener('click',()=>{scrollTo(contacts) } )
+contacts_button2 = document.querySelector('#contacts');
+contacts_button2.addEventListener('click',()=>{scrollTo(contacts) } )
+
+const input = document.getElementById("search-input");
+const searchBtn = document.getElementById("search-btn");
+
+const expand = () => {
+  searchBtn.classList.toggle("close");
+  input.classList.toggle("square");
+};
+
+searchBtn.addEventListener("click", expand);
+
+
+function margin(){
+var text=document.getElementById("user_name");
+var c=(-text.offsetWidth-70);
+text.style.marginLeft=c+"px";
+}
+
+margin()
+
+
+
+//timer
+var countDownDate = new Date("03/22/2022 00:00:01").valueOf();
+// Update the count down every 1 second
+var x = setInterval(function() {
+today=Date.now();
+  // Find the distance between now and the count down date
+  var distance =(countDownDate-today)/1000;
+  distance=Math.floor(distance);
+  var day=Math.floor(distance/86400);
+  var hour=Math.floor((distance-day*86400)/3600);
+  var minute=Math.floor((distance-day*86400-hour*3600)/60);
+  var seconds=Math.floor(distance-day*86400-hour*3600-minute*60);
+  // Display the result in the element with id="demo"
+  document.querySelector(".day").innerHTML = day;
+  document.querySelector(".hour").innerHTML = hour;
+  document.querySelector(".minutes").innerHTML = minute;
+  document.querySelector(".seconds").innerHTML = seconds;
+ 
+  if (distance <= 0) {
+    clearInterval(x);
+    document.querySelector(".day").innerHTML = '00';
+  document.querySelector(".hour").innerHTML = '00';
+  document.querySelector(".minutes").innerHTML = '00';
+  document.querySelector(".seconds").innerHTML = '00';
+  }
+ 
+
+  
+}, 1000);
+
+
+  function send_message(){
+    let k=false;
+    let email=String(document.querySelector(".input_email").value);
+    let name=String(document.querySelector(".input_name").value);
+    let message=String(document.querySelector(".input_message").value);
+    let surname=String(document.querySelector(".input_surname").value);
+    for(let i=0;i<email.length; i++){
+     if(email.charAt(i)=='@') k=true;
+    }
+     if(name.length>0 && surname.length>0 && message.length>0){
+    if (k==true){
+      document.querySelector(".input_email").value="";
+      document.querySelector(".input_name").value="";
+      document.querySelector(".input_surname").value="";
+      document.querySelector(".input_message").value="";
+      alert("Сообщение отправлено");
+    }
+    else alert("Неправильно ввели адрес эл. почты");
+  }
+  else alert("Не введены все данные!");
+}
+  document.querySelector(".send_message").addEventListener("click", send_message);
+
+
+
+  function nm(){
+        var a=document.querySelector(".user_options");
+        if (a.style.display=='none'){
+           a.style.display='block';
+           setTimeout(function(){a.style.marginTop="60px";
+           a.style.opacity="1";
+           a.style.transition="0.5s";},0);
+        }
+        
+        else {
+           a.style.marginTop="0px";
+           a.style.opacity="0";
+           a.style.transition="0.5s";
+           setTimeout(function(){a.style.display='none';},500);
+           
+        }
+            
+    }
+    nm()
+
+
+
+    //search
+   /*let inputText = document.querySelector(".input");
+   information = document.querySelectorAll(".contacts_div1");
+   searchfunction =(text) =>{
+     information.forEach((element)=>{
+       if(element.innerHTML==text){
+         element.style.opacity="0";
+         console.log(element);
+       }
+     });
+     
+   }*/
+
+   function clickPress(event) {
+    if (event.keyCode == 13) {
+        event.preventDefault();
+    }
+}
+
+
+
+</script>
+</body>
+</html>
